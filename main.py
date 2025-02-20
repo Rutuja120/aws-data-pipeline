@@ -10,7 +10,7 @@ s3_client = boto3.client(
 )
 
 # AWS S3 Configuration
-s3_client = boto3.client('s3')
+s3_client = boto3.client('s3') #hhhhh
 
 BUCKET_NAME = 'your-s3-bucket-name'
 FILE_NAME = 'data.csv'
